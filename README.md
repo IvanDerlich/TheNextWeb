@@ -10,6 +10,12 @@ We have to...
 
 [Detailed instructions here](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
+# Live Versions of this project
+
+[Master Branch](https://ivanderlich.github.io/TheNextWeb/)
+
+[Development Branch]()
+
 ## Skills we have demonstrated after completing the project
 
 Creating responsive websites
@@ -20,11 +26,7 @@ Creating responsive websites
 
 [Ivan Derlich](https://github.com/IvanDerlich)
 
-# Live Versions
 
-[Master Branch](https://ivanderlich.github.io/TheNextWeb/)
-
-[Development Branch]()
 
 
 
