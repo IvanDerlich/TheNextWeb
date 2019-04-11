@@ -6,3 +6,6 @@ https://thenextweb.com/
 
 Live version on Master Branch:
 https://ivanderlich.github.io/TheNextWeb/
+
+Instructions:
+https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design
