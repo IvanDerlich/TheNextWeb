@@ -1,0 +1,30 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: brown;
+}
+
+.flex-container{
+    display:flex;
+}
+
+header{
+    height: 10vh;  
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+.main{
+    height: 80vh;
+    border: 3px solid black;
+    background-color: red;
+}
+
+footer{
+    height: 20vh;
+    border: 3px solid black;
+    background-color: pink;
+}

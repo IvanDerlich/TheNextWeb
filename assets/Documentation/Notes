@@ -1,0 +1,42 @@
+Header
+
+	- Nav 1
+	- Main Nav
+		-Ul
+		-Search
+		-Icon Menu (Hidden)
+		-Get Tickets Promo
+			-Logo
+			-Counter
+			-Button
+	- Announcement
+	- Main News
+
+News Container
+	-Latest News
+	-Latest on Index.co
+	-Categories
+	-Lasts Deals
+
+Footer
+
+/**************************/
+media queries
+
+BREAKPOINTS min-width
+****
+1113px
+Get Tickets promo, display none
+****
+1024px 
+TNW logo -> display: block
+Get tickets promo counter -> display block
+****
+780px
+Main Nav Ul -> display none
+Main Nav Icon Menu -> display block
+Nav 1 display none
+****
+480px
+Get tickets promo counter - center
+****

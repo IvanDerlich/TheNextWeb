@@ -10,6 +10,8 @@
 
 [Given Instructions](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design) ->Detailed instructions to follow
 
+[Concepts](https://www.theodinproject.com/courses/html5-and-css3/lessons/responsive-design)
+
 # Live Versions of this project
 
 [Master Branch](https://ivanderlich.github.io/TheNextWeb/)
