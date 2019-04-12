@@ -13,8 +13,14 @@ Header
 	- Main News
 
 News Container
+    -important news
+        3 divs centrados
 	-Latest News
+        div float left
+        8 divs float right
 	-Latest on Index.co
+        1 div de dos renglones grande
+        3 divs a la izquierdaasdf
 	-Categories
 	-Lasts Deals
 
