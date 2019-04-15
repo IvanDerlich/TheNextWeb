@@ -1,32 +1,111 @@
+/*SET-UP*/
 *, *::after, *::before{
     box-sizing: border-box;
 }
+/*END SET-UP*/
 
-body{
-    
-    background-color: brown;
-}
+/*HELPERS*/
 
 .flex-container{
     display:flex;
 }
 
+.clear-fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*END HELPERS*/
+
+/*HEADER (NAVS)*/
+
 header{
-    height: 10vh;  
-    border: 3px solid black;
     background-color: yellow;
 }
 
-.main{
-    height: 80vh;
-    border: 3px solid black;
-    background-color: red;
+.header-navs{
+    width: 100%;
 }
+
+.header-logo{
+    width: 106px;
+    min-width: 106px;
+    height: 48px;
+    /*max-height: 48px;*/
+    overflow: hidden;
+}
+
+.header-logo .logo-2{
+    display: block;
+}
+
+.header-logo .logo-1{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-logo{
+        height: 80px;
+    }
+
+    .header-logo .logo-2{
+        display: none;
+    }
+    
+    .header-logo .logo-1{
+        display: block;
+    }
+}
+
+.nav-business{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-business{
+        display: block;
+    }
+}
+
+.nav-business > ul > li{
+    display: inline-block;
+}
+
+
+.header-menu{
+    width: 100%;
+    background-color: white;
+    height: 48px;
+}
+
+/*END HEADER (NAVS)*/
+
+.cover{
+    height: 20vh;
+    background-color: aquamarine
+}
+
+.wrapper{
+    height: 80vh;
+    background-color: red;
+
+    padding: 0px 20px;
+    max-width: 1192px;
+    margin: 0 auto;
+}
+
+
+
+
 
 footer{
     height: 20vh;
-    border: 3px solid black;
     background-color: pink;
+    
 }
 
 @media only screen and (min-width: 780px) {
