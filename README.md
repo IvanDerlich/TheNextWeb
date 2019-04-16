@@ -28,4 +28,4 @@ Creating responsive websites
 
 [Ivan Derlich](https://github.com/IvanDerlich)
 
-Changes on local to test
+Testing changes to do a git merge
