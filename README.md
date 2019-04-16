@@ -27,3 +27,6 @@ Creating responsive websites
 [Diego Arvizu](https://github.com/diegoarvz4)
 
 [Ivan Derlich](https://github.com/IvanDerlich)
+
+
+Testing changes to do a git merge
