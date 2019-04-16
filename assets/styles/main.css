@@ -90,8 +90,7 @@ header{
 .header-menu{
     width: 100%;
     background-color: white;
-    height: 48px;
-    
+    height: 48px;  
 }
 
 .header-menu ul{
@@ -112,6 +111,26 @@ header{
 
         display: flex;
     }
+}
+
+.flex-justify{
+    justify-content: space-between;
+}
+
+#timer{
+    font-family: 'Play', sans-serif;
+    font-size: 22px;    
+    color: rgb(255,68,44);
+    font-weight: bold;
+}
+
+#search-icon{
+    font-size: 22px;
+    border-left: 1px solid gray;
+}
+
+#header-tito{
+    padding: 20px 20px;
 }
 
 
