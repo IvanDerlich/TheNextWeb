@@ -187,7 +187,7 @@
     width: 100%;    
 }
 
-#header-tito *{
+#header-tito *:not(#timer){
     margin-right: 10px;   
 }
 
@@ -278,6 +278,13 @@
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    #latest-news [class^="col"]{
+        width: 25%;
+        padding: 10px;
+    }
+}
+
 
 [class^="col"] .ln-image-container{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/satoshitreasure-480x270.png');
@@ -293,6 +300,8 @@
         padding: 10px;
     }
 }
+
+
 
 
 [class^="col"] > *{
