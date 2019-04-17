@@ -166,7 +166,6 @@ header{
 #search-icon{
     font-size: 22px;
     border-left: 1px solid rgb(184, 184, 184);
-    order: ;
 }
 
 #header-tito{
@@ -186,6 +185,7 @@ header{
     height: 48px;
     line-height: 48px;
     border-left: 1px solid rgb(190, 190, 190);
+    order: 1;
 }
 .ham-menu{
     padding: 12px;

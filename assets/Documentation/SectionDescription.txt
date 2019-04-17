@@ -1,5 +1,4 @@
-Header
-
+Header #7 V1 E:asignar
 	- Nav 1
 	- Main Nav
 		-Ul
@@ -13,18 +12,18 @@ Header
 	- Main News
 
 News Container
-    -important news
-        3 divs centrados
-	-Latest News
-        div float left
-        8 divs float right
-	-Latest on Index.co
+	-important news -> T#1 V1 asignar
+		3 divs centrados 
+	-Latest News -> T#2 V1.5 asignar
+	div float left
+	8 divs float right
+	-Latest on Index.co -> T#3 V1.5 asignar 
         1 div de dos renglones grande
         3 divs a la izquierdaasdf
-	-Categories
-	-Lasts Deals
+	-Categories -> #4 V2.5 asignar
+	-Lasts Deals -> #5 V1.5 asignar
 
-Footer
+Footer #6 V1 asginar
 
 /**************************/
 media queries
