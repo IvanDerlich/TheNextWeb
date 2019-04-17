@@ -28,9 +28,8 @@ Creating responsive websites
 
 [Ivan Derlich](https://github.com/IvanDerlich)
 
+This way of working is actually very good indeed
 
-Diego esta usando git merge
+We can coordinate efforts quite well
 
-Diego ya no usa git pull
-
-Porque Diego sabe mucho
+Yeah wey.
