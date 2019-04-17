@@ -28,4 +28,8 @@ Creating responsive websites
 
 [Ivan Derlich](https://github.com/IvanDerlich)
 
-Testing changes to do a git merge
+This way of working is actually very good indeed
+
+We can coordinate efforts quite well
+
+Yeah wey.
