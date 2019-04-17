@@ -1,4 +1,4 @@
-Header #7 V1 E:asignar
+Header #7 V1 E:asignar - Diego
 	- Nav 1
 	- Main Nav
 		-Ul
@@ -12,18 +12,18 @@ Header #7 V1 E:asignar
 	- Main News
 
 News Container
-	-important news -> T#1 V1 asignar
+	-important news -> T#1 V1 asignar - Ivan
 		3 divs centrados 
-	-Latest News -> T#2 V1.5 asignar
+	-Latest News -> T#2 V1.5 asignar - Diego
 	div float left
 	8 divs float right
-	-Latest on Index.co -> T#3 V1.5 asignar 
+	-Latest on Index.co -> T#3 V1.5 asignar - Ivan
         1 div de dos renglones grande
         3 divs a la izquierdaasdf
-	-Categories -> #4 V2.5 asignar
-	-Lasts Deals -> #5 V1.5 asignar
+	-Categories -> #4 V2.5 asignar - Ivan
+	-Lasts Deals -> #5 V1.5 asignar - Diego
 
-Footer #6 V1 asginar
+Footer #6 V1 asginar - Diego
 
 /**************************/
 media queries
