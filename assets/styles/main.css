@@ -21,8 +21,9 @@
 
 /*HEADER (NAVS)*/
 
-header{
-    background-color: yellow;
+.header-container{
+ position: fixed; 
+ width: 100%;  
 }
 
 .header-navs{    
@@ -104,6 +105,8 @@ header{
 .header-menu ul > li{
     padding: 0 10px 0;
     font-size: 0.8rem;
+    /*min-width: 90px;*/
+    float: left;
 }
 
 @media only screen and (min-width: 768px) {
@@ -174,6 +177,19 @@ header{
     width: 100%;    
 }
 
+#header-tito *{
+    margin-right: 10px;   
+}
+
+#header-tito button{
+    border: none;
+    background-color: rgb(0, 163, 168);
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
 #header-tito .search-icon{
     width: 48px;
     height: 48px;
@@ -187,6 +203,13 @@ header{
     border-left: 1px solid rgb(190, 190, 190);
     order: 1;
 }
+
+@media only screen and (min-width: 1113px) {
+    #header-tito .ham-menu, #search-icon{
+        order: -1;
+    }
+}
+
 .ham-menu{
     padding: 12px;
 }
@@ -197,9 +220,25 @@ header{
 }
 
 
-
+.header-announcement{
+    width: 100%;
+    background-color: #fd3;
+    color:black;
+    padding: 10px;
+    font-size: 15px;
+    
+}
 
 /*END HEADER (NAVS)*/
+
+
+/*
+    SEPARATOR
+*/
+
+.separator{
+    height: 120px;
+}
 
 .cover{
     height: 20vh;
