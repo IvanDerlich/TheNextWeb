@@ -15,3 +15,5 @@ div float left
 -Lasts Deals -> asginar = 1.5
 
 Footer asginar 1
+
+This edition is for showing changes
