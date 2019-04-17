@@ -133,16 +133,46 @@ header{
         margin: 0;
     }
 }
+@media only screen and (min-width: 1024px) {
+    #timer {
+        display: none
+    }
+    #header-tito>button{
+        order:4;
+    }
+}
+
+@media only screen and (min-width: 1113px) {
+    #timer
+    {
+        display: initial;        
+    }
+}
+#header-tito>button,
+#header-tito>span,
+#header-tito>#conference
+{
+    display:none
+}
+
+@media only screen and (min-width: 1113px) {
+    #header-tito>button,
+    #header-tito>span,
+    #header-tito>#conference {
+        display: block
+    }
+}
 
 #search-icon{
     font-size: 22px;
     border-left: 1px solid rgb(184, 184, 184);
+    order: ;
 }
 
 #header-tito{
     /*padding: 20px 20px;*/
     align-items: center;
-    width: 100%;
+    width: 100%;    
 }
 
 #header-tito .search-icon{
@@ -156,8 +186,14 @@ header{
     height: 48px;
     line-height: 48px;
     border-left: 1px solid rgb(190, 190, 190);
-    order:1;
-
+}
+.ham-menu{
+    padding: 12px;
+}
+@media only screen and (min-width: 768px) {
+    .ham-menu {
+        display: none;
+    }
 }
 
 
@@ -191,4 +227,8 @@ footer{
 
 @media only screen and (min-width: 780px) {
     /*Barra negra aparece hasta el infinito*/
+}
+
+#pepe-list{
+    margin:0;
 }
