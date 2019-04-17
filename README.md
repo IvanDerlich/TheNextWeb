@@ -28,4 +28,9 @@ Creating responsive websites
 
 [Ivan Derlich](https://github.com/IvanDerlich)
 
-Testing changes to do a git merge
+
+Diego esta usando git merge
+
+Diego ya no usa git pull
+
+Porque Diego sabe mucho
