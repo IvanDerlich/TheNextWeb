@@ -16,4 +16,8 @@ div float left
 
 Footer asginar 1
 
+<<<<<<< HEAD
 This perro is for showing changes
+=======
+This gato is for showing changes
+>>>>>>> origin/development
