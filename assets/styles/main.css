@@ -257,6 +257,11 @@
     padding: 20px;
 }
 
+#latest-news > img{
+    width: 67px;
+    height: 20px;
+}
+
 .latest-news-title{
     color: #f42;
     font-size: 40px;
