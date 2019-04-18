@@ -267,7 +267,7 @@
     flex-wrap: wrap;
 }
 
-#latest-news [class^="col"]{
+[class^="col"]{
     width: 100%;
 }
 
@@ -285,16 +285,11 @@
     }
 }
 
-
 [class^="col"] .ln-image-container{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/satoshitreasure-480x270.png');
     background-size: cover;
     min-width: 75px;
     height: 75px;
-}
-
-[class^="col"] .ln-image-container > div{
-    width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -309,9 +304,6 @@
     }
 }
 
-
-
-
 [class^="col"] > *{
     padding-left: 10px;
     margin-bottom: 10px;
@@ -320,14 +312,136 @@
 
 [class^="col"] h2{
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 [class^="col"] span{
     margin-right: 10px;
+    color: rgb(185, 185, 185);
 }
 
 
 /*  LATEST NEWS END */
+
+
+/*
+
+    LATEST DEALS
+
+*/
+
+#latest-deals{
+    width: 100%;
+    padding: 20px;
+}
+
+#latest-deals .row{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #latest-deals [class^="col"]{
+        width: 33.33%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #latest-deals [class^="col"]{
+        width: 25%;
+        padding: 10px;
+    }
+}
+
+.latest-deals-titles{
+    width: 100%;
+}
+
+.latest-deals-titles img{
+    margin-top: 13px;
+    margin-left: 7px;
+    line-height: 67px;
+}
+
+.latest-deals-title{
+    color: #f42;
+    float: left;
+    font-size: 40px;
+}
+
+
+.latest-deals-title{
+    float: left;
+}
+
+.more-deals{
+    color: #f42;
+    float: right;
+    margin-top: 20px;
+}
+
+[class^="col"] .ld-image-container  {
+    background-image: url("https://cdnp3.stackassets.com/f7498bf34d6bb3974a46a20dfce64d349fddfdfe/store/1dfb727a86c50b8b1857c1341b83e29c51871532bfee9ac8c88e8780e052/sale_18696_primary_image.jpg");
+    background-size: cover;
+    min-width: 75px;
+    height: 75px;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+    [class^="col"] .ld-image-container{
+        width: 100%;
+        height: 180px;
+        padding: 10px;
+    }
+
+    [class^="col"]{
+        flex-wrap: wrap;
+    }
+}
+
+.price-drop{
+    background-color: #fd3;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: -20%;
+    right: -25%;
+    justify-content: center;
+    align-items: flex-end;
+    transform: rotate(45deg);
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .price-drop{
+        display: flex;;
+    }
+}
+
+
+
+#prev-price{
+    color: rgb(160, 160, 160);
+    text-decoration: line-through;
+}
+
+#offer-price{
+    color: black;
+    font-size: 1.2rem;
+}
+
+/*
+
+    LATEST DEALS ENDS
+
+*/
+
+
 
 .cover{
     height: 20vh;
