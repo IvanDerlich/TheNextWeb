@@ -459,13 +459,84 @@
 
 
 
-
+/*FOOTER*/
 
 footer{
-    height: 20vh;
-    background-color: pink;
-    
+    background-color: black;
 }
+
+.footer-social{
+    width: 100%;
+    padding-top: 45px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-social .fa {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 11px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px; 
+    margin-right: 6px;
+    align-items: center;
+}
+
+.footer-links{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links a{
+    color: #AAAAAA;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.footer-last{
+   /* width: 40%;
+    margin: 0 auto;
+    justify-content: center;*/
+    color: #AAAAAA;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-last span{
+    text-align: center;
+  display: block;
+  padding-left: 4px;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 768px){
+    .footer-last span {
+       display: inline;
+    }
+}
+
+.footer-legal-logoTNW, .footer-legal-logoStackPath {
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+}
+
+span b{
+    color: #f42;
+}
+
+
 
 @media only screen and (min-width: 780px) {
     /*Barra negra aparece hasta el infinito*/
