@@ -1,0 +1,107 @@
+#important-news{
+    width: 100%;
+    height: 90vh;
+    background-color: brown;       
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /*<coment>After merging, margin-top value has give a 
+    "breathing" space under the header.
+     For me, the site looks less overloaded this way.
+     100px looks good to fit the purpose
+     IDK if its the gradient or something else, but the image gets opaque and helps the font be read easier
+     */
+    margin: 100px 5px 0px 5px;
+    /*</coment>*/   
+}
+#important-news>div {
+    display: block;
+}
+
+#img-main{
+    /*<coment> coment#1: IDK why the background image doesn't display itself the same way it displays itself inside it's container on the original website*/
+   
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+        url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
+    /*</coment>*/
+    background-color: brown;
+    grid-row-start:1;  
+    position:relative;
+    
+}
+#img1 {
+    /*<coment> the same as coment#1*/    
+    background:    
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+        url(../img/activision-blizzard.jpg);
+    /*</coment>*/
+    grid-row-start:2;
+    position:relative;
+}
+#img2 {
+    /*<coment> the same as coment#1*/
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+        url(../img/2019-04-17\ 20_14_14-6\ sure-fire\ areas\ of\ concern\ for\ startups\ dead-set\ on\ rapid\ growth\ -\ Brave.png);
+    /*</coment>*/
+    grid-row-start:3;
+    position:relative;
+}
+.cover-header{    
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+.cover-header *{
+    text-decoration: none;
+}
+.cover-header>h5>a,
+.cover-header>h2>a
+ {
+    color:white;
+}
+.cover-header>ul>li>a,
+.cover-header>ul>li>time,
+.cover-header>ul>li
+{
+    color: rgba(255,255,255,0.6);
+}
+.cover-header>h5>a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Ropa Sans', sans-serif;    
+}
+
+.cover-header>h2>a{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul.cover-byline>li{
+    float:left;
+    margin-right: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 14px;
+}
+ul.cover-byline::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+ul.cover-byline {
+    padding-top:10px;    
+}

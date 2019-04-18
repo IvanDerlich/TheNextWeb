@@ -9,7 +9,7 @@ body::after {
     font-size: 300%;
     font-weight: bold;
     position: fixed;
-    bottom: 40vh;
+    bottom: 10vh;
     width: 100%;
     text-align: center;
     background-color: hsla(1, 60%, 40%, 0.7);
