@@ -3,7 +3,7 @@
     height: 90vh;
     background-color: brown;       
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;    
     /*<coment>After merging, margin-top value has give a 
     "breathing" space under the header.
      For me, the site looks less overloaded this way.
@@ -13,6 +13,96 @@
     margin: 100px 5px 0px 5px;
     /*</coment>*/   
 }
+
+#important-news>div{
+    margin: 5px;
+}
+
+#img-main>span {
+    /* visibility: hidden; */
+    margin:10px;
+    
+}
+
+@font-face {
+    font-family: 'Halo';
+    src: url(../fonts/HALO.TTF);
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Hooked';
+    src: url(../fonts/hooked.ttf);
+    /* IE9 Compat Modes */
+}
+
+#img-main>span.logo{    
+    /* height: 100px;
+    width: 200px; */
+    /* background-color: aquamarine; */
+    font-family: Halo;
+    font-size: 120px;
+    
+}
+
+@media only screen and (min-width: 768px) {
+    #important-news {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+        height: 60vh;
+    }
+    #img-main {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #img1 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #img2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    #img-main>section>h2>a {
+        font-size: 40px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    #important-news {
+        height: 70vh;
+    }
+    
+
+    #img-main>section>h2>a {
+        font-size: 52px;
+    }
+    /*gradiente*/
+    /*logo parte superior izquierda*/
+    /*fecha superior derecha*/ 
+    #img-main>span{
+        position: absolute;       
+        top:0;      
+        /*No se como hacer que la fuente se ajuste al tamañano de la pantalla*/
+        color: white;
+        font-size: 10vw;   
+        /*No se como agregar el SVG en vez de una fuente*/     
+    }
+    #img-main>span.top-right {
+        right:0;
+        font-size: 17px;        
+    }
+}
+
+
 #important-news>div {
     display: block;
 }
@@ -29,9 +119,19 @@
     /*</coment>*/
     background-color: brown;
     grid-row-start:1;  
-    position:relative;
-    
+    position:relative;    
 }
+
+@media only screen and (min-width: 1024px) {
+    #img-main {
+        background:
+            url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),
+            url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
+        background-size: cover;
+    }
+}
+
+
 #img1 {
     /*<coment> the same as coment#1*/    
     background:    
