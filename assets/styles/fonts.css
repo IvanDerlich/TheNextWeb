@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Halo';
+    src: url(../fonts/HALO.TTF);
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Hooked';
+    src: url(../fonts/hooked.ttf);
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Avalon';
+    src: url(../fonts/avalon.ttf);
+    /* IE9 Compat Modes */
+}

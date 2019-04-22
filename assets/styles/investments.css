@@ -1,0 +1,26 @@
+.investments{
+    height: 300px;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.investments>h2>a,
+.investments>a{
+    display: block;
+    line-height: 40px;    
+}
+
+.investments>h2>a{
+    font-size: 25px;    
+    font-weight: bolder;
+}
+
+.investments>a {
+    font-weight: lighter;
+}
+
+.orange-avalon{
+    color: rgb(255, 68, 34);
+    font-family: 'Avalon';
+}
