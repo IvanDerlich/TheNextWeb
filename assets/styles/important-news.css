@@ -132,30 +132,42 @@
 }
 
 
+#img1,
+#img2 {      
+    position:relative;
+}
+
 #img1 {
-    /*<coment> the same as coment#1*/    
-    background:    
-        linear-gradient(
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)
-            ),
+    grid-row-start: 2;
+    /*<coment> the same as coment#1*/
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
         url(../img/activision-blizzard.jpg);
     /*</coment>*/
-    grid-row-start:2;
-    position:relative;
 }
+
 #img2 {
+    grid-row-start: 3;
     /*<coment> the same as coment#1*/
-    background: 
-        linear-gradient(
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)
-            ),
-        url(../img/2019-04-17\ 20_14_14-6\ sure-fire\ areas\ of\ concern\ for\ startups\ dead-set\ on\ rapid\ growth\ -\ Brave.png);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+    url(../img/2019-04-17\ 20_14_14-6\ sure-fire\ areas\ of\ concern\ for\ startups\ dead-set\ on\ rapid\ growth\ -\ Brave.png);
     /*</coment>*/
-    grid-row-start:3;
-    position:relative;
 }
+
+@media only screen and (min-width: 1024px) {
+    #img1 h2>a {
+        font-size: 28px;
+    }
+    #img2 h2>a {
+        font-size: 29px;
+    }
+}
+
 .cover-header{    
     position:absolute;
     bottom:0;
@@ -169,7 +181,7 @@
 }
 .cover-header>h5>a,
 .cover-header>h2>a
- {
+{
     color:white;
 }
 .cover-header>ul>li>a,
