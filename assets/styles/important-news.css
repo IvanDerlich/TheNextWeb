@@ -24,6 +24,18 @@
     
 }
 
+@font-face {
+    font-family: 'Halo';
+    src: url(../fonts/HALO.TTF);
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Hooked';
+    src: url(../fonts/hooked.ttf);
+    /* IE9 Compat Modes */
+}
+
 #img-main>span.logo{    
     /* height: 100px;
     width: 200px; */
