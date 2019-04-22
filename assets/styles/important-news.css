@@ -1,0 +1,219 @@
+#important-news{
+    width: 100%;
+    height: 90vh;
+    background-color: brown;       
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;    
+    /*<coment>After merging, margin-top value has give a 
+    "breathing" space under the header.
+     For me, the site looks less overloaded this way.
+     100px looks good to fit the purpose
+     IDK if its the gradient or something else, but the image gets opaque and helps the font be read easier
+     */
+    margin: 100px 5px 0px 5px;
+    /*</coment>*/   
+}
+
+#important-news>div{
+    margin: 5px;
+}
+
+#img-main>span {
+    /* visibility: hidden; */
+    margin:10px;
+    
+}
+
+@font-face {
+    font-family: 'Halo';
+    src: url(../fonts/HALO.TTF);
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Hooked';
+    src: url(../fonts/hooked.ttf);
+    /* IE9 Compat Modes */
+}
+
+#img-main>span.logo{    
+    /* height: 100px;
+    width: 200px; */
+    /* background-color: aquamarine; */
+    font-family: Halo;
+    font-size: 120px;
+    
+}
+
+@media only screen and (min-width: 768px) {
+    #important-news {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+        height: 60vh;
+    }
+    #img-main {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #img1 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #img2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    #img-main>section>h2>a {
+        font-size: 40px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    #important-news {
+        height: 70vh;
+    }
+    
+
+    #img-main>section>h2>a {
+        font-size: 52px;
+    }
+    /*gradiente*/
+    /*logo parte superior izquierda*/
+    /*fecha superior derecha*/ 
+    #img-main>span{
+        position: absolute;       
+        top:0;      
+        /*No se como hacer que la fuente se ajuste al tamañano de la pantalla*/
+        color: white;
+        font-size: 10vw;   
+        /*No se como agregar el SVG en vez de una fuente*/     
+    }
+    #img-main>span.top-right {
+        right:0;
+        font-size: 17px;        
+    }
+}
+
+
+#important-news>div {
+    display: block;
+}
+
+#img-main{
+    /*<coment> coment#1: IDK why the background image doesn't display itself the same way it displays itself inside it's container on the original website*/
+   
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+        url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
+    /*</coment>*/
+    background-color: brown;
+    grid-row-start:1;  
+    position:relative;    
+}
+
+@media only screen and (min-width: 1024px) {
+    #img-main {
+        background:
+            url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),
+            url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
+        background-size: cover;
+    }
+}
+
+
+#img1,
+#img2 {      
+    position:relative;
+}
+
+#img1 {
+    grid-row-start: 2;
+    /*<coment> the same as coment#1*/
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url(../img/activision-blizzard.jpg);
+    /*</coment>*/
+}
+
+#img2 {
+    grid-row-start: 3;
+    /*<coment> the same as coment#1*/
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+    url(../img/2019-04-17\ 20_14_14-6\ sure-fire\ areas\ of\ concern\ for\ startups\ dead-set\ on\ rapid\ growth\ -\ Brave.png);
+    /*</coment>*/
+}
+
+@media only screen and (min-width: 1024px) {
+    #img1 h2>a {
+        font-size: 28px;
+    }
+    #img2 h2>a {
+        font-size: 29px;
+    }
+}
+
+.cover-header{    
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+.cover-header *{
+    text-decoration: none;
+}
+.cover-header>h5>a,
+.cover-header>h2>a
+{
+    color:white;
+}
+.cover-header>ul>li>a,
+.cover-header>ul>li>time,
+.cover-header>ul>li
+{
+    color: rgba(255,255,255,0.6);
+}
+.cover-header>h5>a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Ropa Sans', sans-serif;    
+}
+
+.cover-header>h2>a{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul.cover-byline>li{
+    float:left;
+    margin-right: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 14px;
+}
+ul.cover-byline::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+ul.cover-byline {
+    padding-top:10px;    
+}
