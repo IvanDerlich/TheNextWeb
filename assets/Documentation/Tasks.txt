@@ -1,3 +1,6 @@
+-main a partir de 1200 y algo, deja de crecer...un max width
+-cuando la pagina crece mucho, el fondo del main articulo del cover se repite
+
 Task  Workload Worker    
 1     1  
 2     1.5 
@@ -16,8 +19,4 @@ div float left
 
 Footer asginar 1
 
-<<<<<<< HEAD
-This perro is for showing changes
-=======
-This gato is for showing changes
->>>>>>> origin/development
+

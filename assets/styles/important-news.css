@@ -107,7 +107,7 @@
             ),
         url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
     /*</coment>*/
-    background-color: brown;
+    /* background-color: brown; */    
     grid-row-start:1;  
     position:relative;    
 }
@@ -117,14 +117,15 @@
         background:
             url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),
             url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
-        background-size: cover;
+        
     }
 }
 
 
 #img1,
 #img2 {      
-    position:relative;
+    position:relative; 
+    /* background-color: beige; */
 }
 
 #img1 {
@@ -163,8 +164,7 @@
     bottom:0;
     width: 100%;
     padding: 10px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;    
 }
 .cover-header *{
     text-decoration: none;
