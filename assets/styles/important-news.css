@@ -36,13 +36,26 @@
     /* IE9 Compat Modes */
 }
 
-#img-main>span.logo{    
-    /* height: 100px;
-    width: 200px; */
-    /* background-color: aquamarine; */
-    font-family: Halo;
-    font-size: 120px;
-    
+#img-main>img.logo{
+    display: none;
+    width: 50%;
+}
+
+@media only screen and (min-width: 1024px) {
+    #img-main>img.logo{
+        display: block;
+        position: absolute;
+        right: 24px;
+        left: 24px;
+        max-width: 50%;
+        height: 100%;
+        max-height: 112px;
+        line-height: 1;
+        top: 24px;
+        pointer-events: none;
+        text-align: right;
+        
+    }
 }
 
 @media only screen and (min-width: 768px) {
