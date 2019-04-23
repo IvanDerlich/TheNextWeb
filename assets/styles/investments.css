@@ -1,7 +1,6 @@
 .investments{
-    height: 300px;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 15px;
 }
 
@@ -13,14 +12,103 @@
 
 .investments>h2>a{
     font-size: 25px;    
-    font-weight: bolder;
+    font-weight: bolder;  
+    line-height: 60px;
 }
 
 .investments>a {
     font-weight: lighter;
+    font-size: 14px;
+    line-height: 30px;
 }
 
 .orange-avalon{
     color: rgb(255, 68, 34);
     font-family: 'Avalon';
+}
+
+.investments .container{
+    /* background: brown; */
+    width: 100%;
+    margin-top: 20px;
+}
+.investments .container>div:nth-child(1){
+    background-color: rgb(255, 68, 34);
+}
+.investments .container>div:nth-child(2) {
+    background-color: rgba(255, 68, 34, .08);
+}
+
+.investments .container>div:nth-child(1) {
+    font-size: 18px;
+    color:white;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.investments .subtitle>div:nth-child(1) {
+    font-size: 18px;    
+}
+
+.investments>.subtitle>div:nth-child(2) {
+    font-size: 11px;
+}
+
+.ars-maquete{
+    font-family: 'SFFlorencesans'    
+}
+
+.investments .container>div:nth-child(-n+2){
+    padding: 10px 16px 10px 84px;
+    font-weight: bold;
+}
+
+.investments .subtitle>div:nth-child(2) {
+    font-size: 11px;
+    font-family: 'Shentox', sans-serif;
+    font-weight: 500;
+    letter-spacing: .04em;
+    line-height: 1.5;
+}
+
+.investments .container {
+    position: relative;
+}
+
+.investments .container>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;    
+    margin: 11px;
+}
+
+.clasification{
+    padding: 11px;
+    border-bottom: 1px solid rgba(255, 68, 34, .25);
+}
+
+.clasification span{
+    font-size:13px;
+    font-family: 'SFFlorencesans';
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(85, 85, 85);
+}
+
+.clasification>div:nth-child(3){    
+    padding:20px;
+}
+
+.footer-1{
+    padding: 10px 16px 16px 16px;
+}
+
+.footer-1>span {
+    font-size:13px;
+    font-family: 'SFFlorencesans';
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(85, 85, 85);
 }

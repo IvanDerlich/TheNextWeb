@@ -1,17 +1,26 @@
 @font-face {
     font-family: 'Halo';
     src: url(../fonts/HALO.TTF);
-    /* IE9 Compat Modes */
 }
 
 @font-face {
     font-family: 'Hooked';
     src: url(../fonts/hooked.ttf);
-    /* IE9 Compat Modes */
 }
 
 @font-face {
     font-family: 'Avalon';
     src: url(../fonts/avalon.ttf);
-    /* IE9 Compat Modes */
+}
+
+/*<alternativas>* ARS Maquette, [nombre de otra fuente]*/
+@font-face {
+    font-family: 'SFFlorencesans';
+    src: url(../fonts/SFFlorencesans/SFFlorencesans.ttf);
+}
+/*</alternativas>*/
+
+@font-face {
+    font-family: 'Shentox';
+    src: url(../fonts/Shentox/Shentox.ttf);
 }
