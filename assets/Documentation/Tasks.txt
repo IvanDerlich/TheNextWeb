@@ -1,5 +1,7 @@
 -La de las cositas en "Investments" expiro en el sitio original. 
     La veo un poco desprolija y me parece que habria que cambiarla antes de presentar el proyecto
+-Margen en la portada deberia ser cero
+-que las categorias sean 2 de 768 a 1024
 
 Task  Workload Worker    
 1     1  

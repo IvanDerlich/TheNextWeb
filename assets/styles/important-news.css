@@ -1,16 +1,7 @@
 #important-news{    
     height: 90vh;
-    /* background-color: brown;        */
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;    
-    /*<coment>After merging, margin-top value has give a 
-    "breathing" space under the header.
-     For me, the site looks less overloaded this way.
-     100px looks good to fit the purpose
-     IDK if its the gradient or something else, but the image gets opaque and helps the font be read easier
-     */
-    margin-top: 50px;
-    /*</coment>*/   
+    grid-template-rows: 1fr 1fr 1fr;   
 }
 
 #important-news>div{
@@ -18,9 +9,7 @@
 }
 
 #img-main>span {
-    /* visibility: hidden; */
-    margin:10px;
-    
+    margin:10px;    
 }
 
 
@@ -119,7 +108,10 @@
             ),
         url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
     /*</coment>*/
-    /* background-color: brown; */    
+    /* background-color: brown; */  
+    background-size: 100% 100%;
+    background-position: center;  
+    background-repeat: no-repeat;    
     grid-row-start:1;  
     position:relative;    
 }
@@ -129,16 +121,13 @@
         background:
             url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),
             url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
-        
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
 
-#img1,
-#img2 {      
-    position:relative; 
-    /* background-color: beige; */
-}
+
 
 #img1 {
     grid-row-start: 2;
@@ -147,7 +136,7 @@
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)
         ),
-        url(../img/activision-blizzard.jpg);
+        url(../img/activision-blizzard.jpg);    
     /*</coment>*/
 }
 
@@ -159,7 +148,16 @@
         rgba(0, 0, 0, 0.4)
         ),
     url(../img/2019-04-17\ 20_14_14-6\ sure-fire\ areas\ of\ concern\ for\ startups\ dead-set\ on\ rapid\ growth\ -\ Brave.png);
+    
     /*</coment>*/
+}
+
+#img1,
+#img2 {
+    position: relative;
+    /* background-color: beige; */
+    background-size: cover;
+    background-position: center;
 }
 
 @media only screen and (min-width: 1024px) {
