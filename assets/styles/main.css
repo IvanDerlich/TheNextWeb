@@ -38,14 +38,13 @@
 /*HEADER (NAVS)*/
 
 .header-container{
- position: fixed; 
- width: 100%; 
- z-index: 10;
+    position: fixed; 
+    width: 100%; 
+    z-index: 10;
 }
 
 header{
     background-color: yellow;    
-    
 }
 
 .header-navs{    
@@ -53,10 +52,8 @@ header{
 }
 
 .header-logo{
-    /* width: 106px; */
-     min-width: 106px;
+    min-width: 106px;
     height: 48px;
-    /*max-height: 48px;*/
     overflow: hidden;
 }
 
@@ -127,13 +124,11 @@ header{
 .header-menu ul > li{
     padding: 0 10px 0;
     font-size: 0.8rem;
-    /*min-width: 90px;*/
     float: left;
 }
 
 @media only screen and (min-width: 768px) {
     .header-menu ul{
-
         display: flex;
     }
 }
@@ -194,7 +189,6 @@ header{
 }
 
 #header-tito{
-    /*padding: 20px 20px;*/
     align-items: center;
     width: 100%;    
 }
@@ -337,14 +331,11 @@ header{
     color: rgb(185, 185, 185);
 }
 
-
 /*  LATEST NEWS END */
 
 
 /*
-
     LATEST DEALS
-
 */
 
 #latest-deals{
@@ -458,8 +449,6 @@ header{
 
 */
 
-
-
 .cover{
     height: 20vh;
     background-color: aquamarine
@@ -520,9 +509,6 @@ footer{
 }
 
 .footer-last{
-   /* width: 40%;
-    margin: 0 auto;
-    justify-content: center;*/
     color: #AAAAAA;
     flex-wrap: wrap;
     padding-bottom: 40px;
@@ -551,12 +537,6 @@ footer{
 
 span b{
     color: #f42;
-}
-
-
-
-@media only screen and (min-width: 780px) {
-    /*Barra negra aparece hasta el infinito*/
 }
 
 #pepe-list{
