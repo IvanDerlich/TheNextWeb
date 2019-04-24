@@ -1,5 +1,4 @@
-#important-news{
-    width: 100%;
+#important-news{    
     height: 90vh;
     /* background-color: brown;        */
     display: grid;
@@ -10,7 +9,7 @@
      100px looks good to fit the purpose
      IDK if its the gradient or something else, but the image gets opaque and helps the font be read easier
      */
-    margin: 100px 5px 0px 5px;
+    margin-top: 100px;
     /*</coment>*/   
 }
 

@@ -1,5 +1,5 @@
--main a partir de 1200 y algo, deja de crecer...un max width
--cuando la pagina crece mucho, el fondo del main articulo del cover se repite
+-La de las cositas en "Investments" expiro en el sitio original. 
+    La veo un poco desprolija y me parece que habria que cambiarla antes de presentar el proyecto
 
 Task  Workload Worker    
 1     1  

@@ -1,4 +1,4 @@
-# Project: dfghdfghdfghdf
+# Project: Responsive Web Design
 
 ## Brief introduction
 

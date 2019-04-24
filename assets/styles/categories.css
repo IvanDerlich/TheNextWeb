@@ -1,0 +1,32 @@
+.categories{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.categories{
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+.categories .title1{
+    font-weight: bolder;
+    font-size: 28px;    
+}
+
+.categories .module>h2{
+    margin-bottom: 14px;
+}
+
+.categories .container{   
+    height: 400px;
+    background-image: url("../img/categories/dropbox-google-cloud-header-e1554857290378-796x401.png");
+    position: relative;
+}
+
+.categories .text{   
+    position: absolute;
+    bottom: 0; 
+    margin: 15px;
+    color: white;
+}
+
