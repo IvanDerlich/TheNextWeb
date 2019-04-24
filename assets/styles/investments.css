@@ -1,6 +1,5 @@
 .investments{
     width: 100%;
-    /* background-color: aquamarine; */
     padding: 15px;
 }
 
@@ -35,7 +34,6 @@
 }
 
 .investments .container{
-    /* background: brown; */
     width: 100%;
     margin-top: 20px;
 }
