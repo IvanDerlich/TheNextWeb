@@ -86,11 +86,11 @@ body::after {
     body:after {
         content: "1024 to 1113px";
         background-color: rgba(0,0,255, 0.7);
-        color:rgba(255,255,255,0,7)
+        color:rgba(255,255,255,0.7)
     }
 }
 
-@media only screen and (min-width: 1113x) {
+@media only screen and (min-width: 1113px) {
     body:after {
         content: "1113 and upx";
         background-color: hsla(90, 60%, 40%, 0.7);
@@ -534,12 +534,12 @@ header{
 
 
 
-#prev-price{
+.prev-price{
     color: rgb(160, 160, 160);
     text-decoration: line-through;
 }
 
-#offer-price{
+.offer-price{
     color: black;
     font-size: 1.2rem;
 }
@@ -1022,7 +1022,7 @@ ul.cover-byline {
 @media only screen and (min-width: 780px) {
     .investments .separator1 {
         display: inline;
-        margin: 7px 8px 0 8p    x;      
+        margin: 7px 8px 0 8px;      
         color: rgb(255, 68, 34);
         font-weight: bolder;
     }
