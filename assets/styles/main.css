@@ -1015,7 +1015,7 @@ ul.cover-byline {
     }
 }
 
-.investments .separator{
+.investments .separator,.separator1{
     display: none;
 }
 
