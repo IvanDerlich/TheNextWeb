@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Halo';
+    src: url(../fonts/HALO.TTF);
+}
+
+@font-face {
+    font-family: 'Hooked';
+    src: url(../fonts/hooked.ttf);
+}
+
+@font-face {
+    font-family: 'Avalon';
+    src: url(../fonts/avalon.ttf);
+}
+
+/*<alternativas>* ARS Maquette, [nombre de otra fuente]*/
+@font-face {
+    font-family: 'SFFlorencesans';
+    src: url(../fonts/SFFlorencesans/SFFlorencesans.ttf);
+}
+/*</alternativas>*/
+
+@font-face {
+    font-family: 'Shentox';
+    src: url(../fonts/Shentox/Shentox.ttf);
+}

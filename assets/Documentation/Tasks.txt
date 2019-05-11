@@ -1,0 +1,24 @@
+-La de las cositas en "Investments" expiro en el sitio original. 
+    La veo un poco desprolija y me parece que habria que cambiarla antes de presentar el proyecto
+-Margen en la portada deberia ser cero
+-que las categorias sean 2 de 768 a 1024
+
+Task  Workload Worker    
+1     1  
+2     1.5 
+3     1.5
+
+- -> asignar  = 1
+    3 divs centrados 
+-Latest News -> asignar = 1.5
+div float left
+8 divs float right
+-Latest on Index.co -> asignar = 1.5
+    1 div de dos renglones grande
+    3 divs a la izquierdaasdf
+-Categories -> asginar = 2.5
+-Lasts Deals -> asginar = 1.5
+
+Footer asginar 1
+
+

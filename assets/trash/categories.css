@@ -1,0 +1,123 @@
+.categories{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 768px){
+    .categories::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+.categories .module{
+    padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .categories .module {
+        float: left;
+        width:50%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .categories .module {        
+        width: 33.33%;
+    }
+}
+
+.categories .title1{
+    font-weight: bolder;
+    font-size: 28px;    
+}
+
+.categories .module>h2{
+    margin-bottom: 14px;
+}
+
+.categories .container{   
+    height: 400px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url("../img/categories/dropbox-google-cloud-header-e1554857290378-796x401.png");
+    position: relative;
+}
+@media only screen and (min-width: 768px) {
+    .categories .container {
+        height: 30vw;        
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .categories .container {
+        height: 20vw;
+    }
+}
+
+.categories .text{   
+    position: absolute;
+    bottom: 0; 
+    margin: 15px;
+    color: white;
+}
+
+.categories h1{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.categories h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.categories .t3 {
+    font-family: 'Sniglet', cursive;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.categories .subtitle1{
+    margin: 0;
+    background-color: rgba(255, 68, 34, 0.06);
+}
+
+.categories .subtitle1 img{
+    float:right;
+}
+
+.categories .subtitle1 div {
+    padding: 10px 14px ;
+}
+
+.categories .subtitle1 div>h2{
+    font-size: 14px;
+}
+
+.categories .subtitle1::after{
+    content: "";
+    clear: both;
+    display: table;    
+}
+
+.categories ul li::before {
+    content: "\2022";
+    color: rgb(255, 68, 34);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.categories li{
+    padding: 10px 0 10px 14px;
+    border-bottom: 1px solid rgba(85, 85, 85, .2);
+    font-family: 'SFFlorencesans';
+    font-size: 13px;
+    color: rgb(85, 85, 85)
+}

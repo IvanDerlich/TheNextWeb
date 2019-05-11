@@ -1,0 +1,172 @@
+.investments{
+    width: 100%;
+    padding: 15px;
+}
+
+.investments a.orange-avalon,
+.investments .options>a {
+    display: block;
+    line-height: 40px;    
+}
+
+@media only screen and (min-width: 1024px) {
+    .investments .container1 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.investments a.orange-avalon{
+    font-size: 25px;    
+    font-weight: bolder;  
+    line-height: 60px;
+}
+
+.investments .options>a {
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.orange-avalon{
+    color: rgb(255, 68, 34);
+    font-family: 'Avalon';
+}
+
+.investments .container{
+    width: 100%;
+    margin-top: 20px;
+}
+.investments .container>div:nth-child(1){
+    background-color: rgb(255, 68, 34);
+}
+.investments .container>div:nth-child(2) {
+    background-color: rgba(255, 68, 34, .08);
+}
+
+.investments .container>div:nth-child(1) {
+    font-size: 18px;
+    color:white;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.investments .subtitle>div:nth-child(1) {
+    font-size: 18px;    
+}
+
+.investments>.subtitle>div:nth-child(2) {
+    font-size: 11px;
+}
+
+.ars-maquete{
+    font-family: 'SFFlorencesans'    
+}
+
+.investments .container>div:nth-child(-n+2){
+    padding: 10px 16px 10px 84px;
+    font-weight: bold;
+}
+
+.investments .subtitle>div:nth-child(2) {
+    font-size: 11px;
+    font-family: 'Shentox', sans-serif;
+    font-weight: 500;
+    letter-spacing: .04em;
+    line-height: 1.5;
+}
+
+.investments .container {
+    position: relative;
+}
+
+.investments .container>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;    
+    margin: 11px;
+}
+
+.clasification{
+    padding: 11px;
+    border-bottom: 1px solid rgba(255, 68, 34, .25);
+}
+
+.clasification span{
+    font-size:13px;
+    font-family: 'SFFlorencesans';
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(85, 85, 85);
+}
+
+.clasification>div:nth-child(3){    
+    padding:20px;
+}
+
+.footer-1{
+    padding: 10px 16px 16px 16px;
+}
+
+.footer-1>span {
+    font-size:13px;
+    font-family: 'SFFlorencesans';
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(85, 85, 85);
+}
+
+.hide{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {    
+    .investments .ortencio{
+        display: flex;
+        flex-direction: row;
+    }
+    .investments .container {
+        margin: 0 10px;
+    }
+    .investments .options>a{
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }    
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    .investments .options{
+        display: inline;
+    }
+    .investments .container {
+        margin: 0 10px;
+    }    
+}
+
+@media only screen and (min-width: 1024px) {
+    .hide {
+        display: block;
+    }
+    .investments .options{
+        padding-top: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.investments .separator{
+    display: none;
+}
+
+@media only screen and (min-width: 780px) {
+    .investments .separator1 {
+        display: inline;
+        margin: 7px 8px 0 8p    x;      
+        color: rgb(255, 68, 34);
+        font-weight: bolder;
+    }
+}

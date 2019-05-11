@@ -1,8 +1,10 @@
-# Project: dfghdfghdfghdf
+# Project: Responsive Web Design
 
 ## Brief introduction
 
-"We have to" -> Here we describe what we understand we have to do
+The purpose of this project is to emulate the responsiveness of the Next Web front web page. 
+
+## Directives
 
 [Site to replicate](https://web.archive.org/web/20190411210408/https://thenextweb.com/) -> This is the version of the website to replicate archived on April 11th 2019
 
@@ -10,15 +12,21 @@
 
 [Given Instructions](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design) ->Detailed instructions to follow
 
+[Concepts](https://www.theodinproject.com/courses/html5-and-css3/lessons/responsive-design)
+
 # Live Versions of this project
 
 [Master Branch](https://ivanderlich.github.io/TheNextWeb/)
 
-[Development Branch]()
+[Development Branch](https://raw.githack.com/IvanDerlich/TheNextWeb/development/index.html)
 
 ## Skills we have demonstrated after completing the project
 
-Creating responsive websites
+Responsive layout
+
+Media queries knowledge
+
+Positioning: Grid, Flexbox, Floats
 
 ## Contributors
 

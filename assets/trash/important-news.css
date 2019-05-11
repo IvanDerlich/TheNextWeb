@@ -1,0 +1,207 @@
+#important-news{    
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;   
+}
+
+#important-news>div{
+    margin: 5px;
+}
+
+#img-main>span {
+    margin:10px;    
+}
+
+
+
+#img-main>img.logo{
+    display: none;
+    width: 50%;
+}
+
+@media only screen and (min-width: 1024px) {
+    #img-main>img.logo{
+        display: block;
+        position: absolute;
+        right: 24px;
+        left: 24px;
+        max-width: 50%;
+        height: 100%;
+        max-height: 112px;
+        line-height: 1;
+        top: 24px;
+        pointer-events: none;
+        text-align: right;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #important-news {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+        height: 60vh;
+    }
+    #img-main {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #img1 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #img2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    #img-main>section>h2>a {
+        font-size: 40px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    #important-news {
+        height: 70vh;
+    }
+    
+
+    #img-main>section>h2>a {
+        font-size: 52px;
+    }
+
+    #img-main>span{
+        position: absolute;       
+        top:0;      
+        color: white;
+        font-size: 10vw;   
+    }
+    #img-main>span.top-right {
+        right:0;
+        font-size: 17px;        
+    }
+}
+
+
+#important-news>div {
+    display: block;
+}
+
+#img-main{
+   
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+        url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);   
+    background-size: 100% 100%;
+    background-position: center;  
+    background-repeat: no-repeat;    
+    grid-row-start:1;  
+    position:relative;    
+}
+
+@media only screen and (min-width: 1024px) {
+    #img-main {
+        background:
+            url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),
+            url(../img/google-algorithm-fade-ss-1920-800x450-796x448.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+
+#img1 {
+    grid-row-start: 2;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url(../img/activision-blizzard.jpg);    
+}
+
+#img2 {
+    grid-row-start: 3;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+    url(../img/2019-04-17\ 20_14_14-6\ sure-fire\ areas\ of\ concern\ for\ startups\ dead-set\ on\ rapid\ growth\ -\ Brave.png);
+}
+
+#img1,
+#img2 {
+    position: relative;
+    /* background-color: beige; */
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    #img1 h2>a {
+        font-size: 28px;
+    }
+    #img2 h2>a {
+        font-size: 29px;
+    }
+}
+
+.cover-header{    
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 20px;    
+}
+.cover-header *{
+    text-decoration: none;
+}
+.cover-header>h5>a,
+.cover-header>h2>a
+{
+    color:white;
+}
+.cover-header>ul>li>a,
+.cover-header>ul>li>time,
+.cover-header>ul>li
+{
+    color: rgba(255,255,255,0.6);
+}
+.cover-header>h5>a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Ropa Sans', sans-serif;    
+}
+
+.cover-header>h2>a{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul.cover-byline>li{
+    float:left;
+    margin-right: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 14px;
+}
+ul.cover-byline::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+ul.cover-byline {
+    padding-top:10px;    
+}
